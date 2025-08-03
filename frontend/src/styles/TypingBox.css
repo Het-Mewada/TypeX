@@ -1,0 +1,27 @@
+.typing-paragraph{
+  font-family: monospace;
+  font-size: 18px;
+  white-space: pre-wrap;
+  background-color: #f8f9fa;
+  min-height: 120px;
+}
+
+.typing-area{
+  font-family: monospace;
+  font-size: 18px;
+  white-space: pre-wrap;
+  min-height: 120px;
+}
+.typing-area:focus {
+  outline: none;
+}
+
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
